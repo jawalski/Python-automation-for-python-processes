@@ -3,7 +3,7 @@
 A Guide to Automation of Producing Images/Movies from OpenFoam Data on Stampede 2
 
 Step 1: You should have the data from OpenFoam in a folder/directory in your work directory
-
+![Example folder files](./Pic1.png)
 a. Make sure you have an empty foam.foam file in the folder
 
 
