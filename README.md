@@ -3,12 +3,14 @@
 A Guide to Automation of Producing Images/Movies from OpenFoam Data on Stampede 2
 
 Step 1: You should have the data from OpenFoam in a folder/directory in your work directory
+
 a. Make sure you have an empty foam.foam file in the folder
 
 
 Step 2: The .py file containing the python code for the desired image/movie should also be in this folder
 
 Step 3: Load the paraview module (as well as the swr and qt5 modules required for paraview)
+
 a. ‘module load swr qt5 paraview’ (use ‘module list’ to make sure they were loaded)
 
 Step 4: Modify the necessary lines in the code based on the image you want to produce. To open the file just input “vi example.py” into the command module. Hit i to enter editing mode and escape to exit editing mode. “:wq” saves changes and “:q” quits without saving
