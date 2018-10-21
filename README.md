@@ -16,7 +16,7 @@ a. ‘module load swr qt5 paraview’ (use ‘module list’ to make sure they w
 Step 4: Modify the necessary lines in the code based on the image you want to produce. To open the file just input “vi example.py” into the command module. Hit i to enter editing mode and escape to exit editing mode. “:wq” saves changes and “:q” quits without saving
 
 a. Specify the right path for the foam.foam file (around line 15). The current code will work if foam.foam is in your current directory
-
+![](./Pic2.png)
 b. To change the variable being displayed (the default is temperature) change all lines of code that look like the following to the desired property. There should be only one instance of getting the color transfer for both 2D and 3D, but four instances of coloring a slice/clip in the 3D code and one instance in the 2D code (these will not all be next to one another)
 
 c. The titles of the axes can be easily modified by altering the following lines in the code. You may have to adjust the font sizes and the inflate factor to get the image to look right:
