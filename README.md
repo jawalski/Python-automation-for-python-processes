@@ -20,10 +20,10 @@ a. Specify the right path for the foam.foam file (around line 15). The current c
 b. To change the variable being displayed (the default is temperature) change all lines of code that look like the following to the desired property. There should be only one instance of getting the color transfer for both 2D and 3D, but four instances of coloring a slice/clip in the 3D code and one instance in the 2D code (these will not all be next to one another)
 
 c. The titles of the axes can be easily modified by altering the following lines in the code. You may have to adjust the font sizes and the inflate factor to get the image to look right:
--For 2D code there will only be the two axes 
+- For 2D code there will only be the two axes 
 
 d. You may also want to adjust the color bar to get it to look professional, the scaling is kind of weird on Linux so if intermediate numbers between the max and min range are not displaying just increase the length. The following code is where most aspects of the color bar can be modified: 
--Note: the RescaleTransferFunction lines set a fixed range for the color bar. You will almost certainly have to change this range with different sets of data or when you are examining different variables
+- Note: the RescaleTransferFunction lines set a fixed range for the color bar. You will almost certainly have to change this range with different sets of data or when you are examining different variables
 
 e. If you want to change the camera angle (most relevant for 3D) play with the numbers in the following code until you get what you want. This code repeats several times so make sure you are altering this only the final time it shows up
 
@@ -38,7 +38,7 @@ Step 5: Begin an interactive session with ‘idev’
 Step 6: Run the .py file with python 
 - ‘python example.py’ 
 - The code writes a jpg (or whatever image format is being used) for each frame selected to the current folder. The above code creates 21 jpg images starting at 3DAnimation.0000.jpg and ending with 3DAnimation.0020.jpg and saves them to the current directory. If desired you can change the path to write the .jpg images to a different directory
--If you are testing and only want to write one jpg image comment out this line and uncomment the line above it which saves one image
+- If you are testing and only want to write one jpg image comment out this line and uncomment the line above it which saves one image
 
 Step 7: Create a new directory and copy/move all of the image files you have created to that directory. Then run:
 
