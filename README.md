@@ -21,7 +21,7 @@ a. Specify the right path for the foam.foam file (around line 15). The current c
 
 b. To change the variable being displayed (the default is temperature) change all lines of code that look like the following to the desired property. There should be only one instance of getting the color transfer for both 2D and 3D, but four instances of coloring a slice/clip in the 3D code and one instance in the 2D code (these will not all be next to one another)
 
-![](./Pic3.png)
+![](./Pic3.PNG)
 
 c. The titles of the axes can be easily modified by altering the following lines in the code. You may have to adjust the font sizes and the inflate factor to get the image to look right:
 - For 2D code there will only be the two axes 
