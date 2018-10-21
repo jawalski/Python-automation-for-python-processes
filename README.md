@@ -31,11 +31,11 @@ Step 6: Run the .py file with python
 - The code writes a jpg (or whatever image format is being used) for each frame selected to the current folder. The above code creates 21 jpg images starting at 3DAnimation.0000.jpg and ending with 3DAnimation.0020.jpg and saves them to the current directory. If desired you can change the path to write the .jpg images to a different directory
 -If you are testing and only want to write one jpg image comment out this line and uncomment the line above it which saves one image
 
-Step 6: Create a new directory and copy/move all of the image files you have created to that directory. Then run:
+Step 7: Create a new directory and copy/move all of the image files you have created to that directory. Then run:
 
 -This creates a gif called movie.gif out of all of jpg images in the folder (in order)
 
-Step 7: If an alternative video format is desired, download the .gif to your computer and use online software to convert it
+Step 8: If an alternative video format is desired, download the .gif to your computer and use online software to convert it
 - Note: The globus file transfer system is very easy to use and is recommended for easily getting the .gif file on your computer
 
 
